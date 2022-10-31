@@ -1,13 +1,14 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type": "module",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/seagirl1110/hexlet-js.git"
   },
   "author": "Marina Elizarova",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/seagirl1110/hexlet-js/issues"
   },
-  "homepage": "https://github.com/seagirl1110/hexlet-js#readme"
+  "homepage": "https://github.com/seagirl1110/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
